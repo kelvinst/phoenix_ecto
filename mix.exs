@@ -31,7 +31,7 @@ defmodule PhoenixEcto.Mixfile do
 
   defp deps do
     [{:phoenix_html, "~> 2.9", optional: true},
-     {:ecto, "~> 2.1"},
+     {:ecto, "~> 2.1", github: "kelvinst/ecto", branch: "prefixed-inserts"},
      {:plug, "~> 1.0"}]
   end
 end
